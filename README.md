@@ -64,11 +64,11 @@ The data intentionally contains inconsistencies such as missing values and broke
 ## 📊 Key Outputs
 
 ### KPI Summary
+<img width="1122" height="510" alt="KPI_summary" src="https://github.com/user-attachments/assets/47ec12f6-94f1-4c90-bfe5-93f8b619805e" />
 
-<img
+
 ### Revenue Leakage Orders
-
-![Revenue Leakage](screenshots/revenue_leakage.png)
+<img width="1145" height="550" alt="Revenue_leakage" src="https://github.com/user-attachments/assets/61a4412a-4b19-469d-a90a-e660e6bc2ba0" />
 
 ---
 
@@ -83,46 +83,20 @@ The data intentionally contains inconsistencies such as missing values and broke
 ## 🛠️ Tools & Skills Used
 
 * PostgreSQL
-* SQL (joins, CTEs, aggregations, CASE logic)
+* SQL (joins, aggregations)
 * Data quality checks
 * Business KPI design
 * Audit-focused analysis
 
 ---
 
-## 📎 Project Structure
-
-```
-Revenue-Leakage-Audit-PostgreSQL
-│
-├── sql/
-│   ├── raw_table_creation.sql
-│   ├── data_validation.sql
-│   ├── referential_integrity_checks.sql
-│   ├── data_fixes.sql
-│   ├── revenue_leakage_detection.sql
-│   └── enhancement_1_kpi_summary.sql
-│
-├── screenshots/
-│   ├── kpi_summary.png
-│   └── revenue_leakage.png
-│
-└── README.md
-```
-
----
-
 ## ✅ Key Learnings
 
 * Real-world data is messy and requires validation
+* Raw data should not be tempered
 * Cleaning decisions must be documented and auditable
 * Business KPIs should be built on validated data
 * SQL is a powerful analytical and auditing tool
 
 ---
-
-## 📌 Note
-
-This project focuses on **SQL-based analysis only**.
-Visualization tools were intentionally not used to emphasize data quality, logic, and business reasoning.
 
